@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>Data_Format_Converter</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>bin\Debug\net7.0-windows\icons8-transformation-96.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="alter.png" />
+    <None Remove="convert.png" />
+    <None Remove="copy.gif" />
+    <None Remove="copy.png" />
+    <None Remove="save_as.png" />
+    <None Remove="swap.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net7.0-windows\icons8-transformation-96.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="alter.png" />
+    <Resource Include="convert.png" />
+    <Resource Include="copy.gif" />
+    <Resource Include="copy.png" />
+    <Resource Include="save_as.png" />
+    <Resource Include="swap.png" />
+  </ItemGroup>
+
+</Project>

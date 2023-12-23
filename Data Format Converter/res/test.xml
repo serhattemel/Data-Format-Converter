@@ -1,0 +1,17 @@
+<root>
+	<kullanici>
+		<adi>Michael</adi>
+		<soyadi>Jackson</soyadi>
+		<yas>50</yas>
+		<adres>
+			<sehir>Los Angeles</sehir>
+			<posta_kodu>90001</posta_kodu>
+			<ulke>ABD</ulke>
+		</adres>
+		<hobiler>
+			<hobi>Müzik</hobi>
+			<hobi>Dans</hobi>
+			<hobi>Moda</hobi>
+		</hobiler>
+	</kullanici>
+</root>
